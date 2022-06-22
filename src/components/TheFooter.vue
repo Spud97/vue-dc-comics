@@ -107,7 +107,8 @@ export default {
   right: 145px;
 }
 li span {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+  color: rgb(177, 177, 177);
   &:hover {
     text-decoration: underline;
     cursor: pointer;

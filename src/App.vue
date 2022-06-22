@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <TheHeader />
+    <BlueSection />
     <TheFooter />
     <SocialFooter />
   </div>
@@ -8,6 +9,7 @@
 
 <script>
 import TheHeader from "./components/TheHeader.vue";
+import BlueSection from "./components/BlueSection.vue"
 import TheFooter from "./components/TheFooter.vue";
 import SocialFooter from "./components/SocialFooter.vue";
 
@@ -15,9 +17,10 @@ export default {
   name: "App",
   components: {
     TheHeader,
+    BlueSection,
     TheFooter,
     SocialFooter,
-  },
+    },
 };
 </script>
 

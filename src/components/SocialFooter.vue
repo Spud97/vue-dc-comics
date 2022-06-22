@@ -11,7 +11,7 @@
           <ul
             class="list-unstyled d-flex justify-content-between align-items-center"
           >
-            <li class="p-4 text-primary fw-bold">FOLOW US</li>
+            <li class="p-4 text-primary fw-bold">FOLLOW US</li>
             <li class="m-3">
               <a href="#"> <img src="/img/footer-facebook.png" alt="" /></a>
             </li>
@@ -53,5 +53,6 @@ export default {
 <style lang="scss" scoped>
 .my-btn {
   border-radius: 0px;
+  color: white;
 }
 </style>
