@@ -1,17 +1,23 @@
 <template>
   <div id="app">
     <TheHeader />
+    <TheFooter />
+    <SocialFooter />
   </div>
 </template>
 
 <script>
 import TheHeader from "./components/TheHeader.vue";
+import TheFooter from "./components/TheFooter.vue";
+import SocialFooter from "./components/SocialFooter.vue";
 
 export default {
   name: "App",
   components: {
-    TheHeader
-},
+    TheHeader,
+    TheFooter,
+    SocialFooter,
+  },
 };
 </script>
 
