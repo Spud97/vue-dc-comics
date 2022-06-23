@@ -9,9 +9,9 @@
         </div>
         <div class="d-flex align-items-center">
           <ul
-            class="list-unstyled d-flex justify-content-between align-items-center"
+            class="list-unstyled d-flex justify-content-between align-items-center m-0"
           >
-            <li class="p-4 text-primary fw-bold">FOLLOW US</li>
+            <h4 class="p-4 text-primary fw-bold my-2">FOLLOW US</h4>
             <li class="m-3">
               <a href="#"> <img src="/img/footer-facebook.png" alt="" /></a>
             </li>
@@ -54,5 +54,6 @@ export default {
 .my-btn {
   border-radius: 0px;
   color: white;
+  padding: 5px 10px;
 }
 </style>

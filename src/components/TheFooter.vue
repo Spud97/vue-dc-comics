@@ -1,8 +1,8 @@
 <template>
   <div class="footer-bg py-4">
     <div class="container">
-      <div class="row">
-        <div class="col-md-2 text-start">
+      <div class="row px-2">
+        <div class="col-1 text-start p-0 pe-2">
           <h5 class="text-light">DC COMICS</h5>
           <ul class="list-unstyled">
             <li
@@ -24,7 +24,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-2 text-start">
+        <div class="col-1 text-start p-0 px-2">
           <h5 class="text-light">DC</h5>
           <ul class="list-unstyled text-start">
             <li class="text-light" v-for="(link, i) in dc" :key="link">
@@ -32,7 +32,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-2 text-start">
+        <div class="col-1 text-start p-0 px-2">
           <h5 class="text-light">SITES</h5>
           <ul class="list-unstyled">
             <li
@@ -44,7 +44,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col">
           <img
             class="dc-big-logo"
             src="/img/dc-logo-bg.png"
@@ -103,15 +103,19 @@ export default {
 }
 .dc-big-logo {
   position: absolute;
-  top: -6%;
-  right: 145px;
+  top: -25%;
+  right: 100px;
+  height: 150%;
+}
+li {
+  line-height: 0.9rem;
 }
 li span {
   font-size: 0.6rem;
   color: rgb(177, 177, 177);
-  &:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
+}
+li span:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 </style>

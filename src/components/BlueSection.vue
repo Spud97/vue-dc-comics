@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primary">
     <div class="container">
-      <div class="row py-5 align-items-center">
+      <div class="row p-4 align-items-center">
         <div v-for="link in blueSectionLinks" :key="link.text" class="col">
           <a href="#" class="row align-items-center">
             <img
@@ -9,7 +9,7 @@
               :src="`/img/buy-${link.icon}`"
               :alt="`Immagine ` + link.text"
             />
-            <span class="col text-white text-uppercase ps-0">{{ link.text }}</span>
+            <span class="col text-white text-uppercase px-0">{{ link.text }}</span>
           </a>
         </div>
       </div>
@@ -56,7 +56,7 @@ a {
     text-decoration: none;
 }
 img {
-  transform: scale(0.7) translateX(3rem);
+  transform: scale(0.7);
   max-width: 90px;
   max-height: 70px;
 }
